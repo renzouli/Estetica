@@ -126,7 +126,7 @@ export default function App() {
   };
 
   const handleCotizar = () => {
-    window.open(`https://wa.me/51953163240?text=Hola,%20quisiera%20cotizar%20tratamientos%20en%20Lunara%20Estética`, '_blank');
+    window.open(`https://wa.me/51953163240?text=Hola,%20quisiera%20cotizar%20tratamientos%20en%20Bella%20Estética`, '_blank');
     setShowSuccess(true);
     setTimeout(() => setShowSuccess(false), 3000);
   };
